@@ -7,4 +7,9 @@ Luego le pones git branch -M main para cambiar el nombre a main.
 6. git add . para añadir la carpeta actual y luego git commit -am "Primer commit" para confirmar los cambios. git push -u origin main -f para subirlo a github.
 7. Añadimos la línea en java y hacemos lo mismo que en el seis pero con la descripción "Segundo commit".
 8. Actualizo en el remoto y hago un git pull.
-9. 
+9. Cambiamos al primer commit y hacemos git tag v1.0 -m y el código del commit y luego git push --tags para subirlo al remoto.
+10. --
+11.Borramos el proyecto, vamos al remoto, copiamos la url y ponemos git clone url.
+12.git branch "addclass" y git checkout "addclass".
+13.git add . , git commit -m "Primer commit Branch" y git push
+14.
