@@ -1,0 +1,10 @@
+1. --
+2. -- 
+3. Creas la carpeta y luego, desde la terminal situada en esa carpeta, hacer git init y después para enlazarlo con el github hacemos git remote add origin 'url'. 
+Luego le pones git branch -M main para cambiar el nombre a main.
+4. git remote -v.
+5. Haces lo mismo de git remote add pero cambias origin a origin1. git remote -v para ver los cambios.
+6. git add . para añadir la carpeta actual y luego git commit -am "Primer commit" para confirmar los cambios. git push -u origin main -f para subirlo a github.
+7. Añadimos la línea en java y hacemos lo mismo que en el seis pero con la descripción "Segundo commit".
+8. Actualizo en el remoto y hago un git pull.
+9. 
